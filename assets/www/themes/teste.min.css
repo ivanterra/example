@@ -1,0 +1,62 @@
+/*
+* jQuery Mobile Framework Git Build: SHA1: c2d61e2e592c67519d9a9ed0ba796fa44787e136 <> Date: Tue Sep 25 10:38:12 2012 -0700
+* http://jquerymobile.com
+*
+* Copyright 2012 jQuery Foundation and other contributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+
+
+
+.ui-btn-up-c:visited,
+.ui-btn-up-c a.ui-link-inherit {
+	color: #ffffff /*{c-bup-color}*/;
+}
+.ui-btn-hover-c {
+	border: none;
+background: transparent;
+	background-color: rgba(0, 0, 0, 0.7); /*{c-bhover-background-color}*/;
+
+	color: #000 /*{c-bhover-color}*/;
+	text-shadow:none;
+
+}
+.ui-btn-hover-c:visited,
+.ui-btn-hover-c:hover,
+.ui-btn-hover-c a.ui-link-inherit {
+	color: #FFF; /*{c-bhover-color}*/;
+}
+.ui-btn-down-c {
+	border: none;
+	background: transparent;
+	background-color: rgba(0, 0, 0,1); /*{c-bhover-background-color}*/;
+	color: #FFF;  /*{c-bhover-color}*/;
+	text-shadow:none;
+
+}
+.ui-btn-down-c:visited,
+.ui-btn-down-c:hover,
+.ui-btn-down-c a.ui-link-inherit {
+	color:#FFF; /*{c-bdown-color}*/;
+}
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c {
+	 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+	text-decoration: none;
+}
+
+
+
+
+/* Structure */
+
+/* links within "buttons" 
+-----------------------------------------------------------------------------------------------------------*/
+
+a.ui-link-inherit {
+	text-decoration: none !important;
+}
+
